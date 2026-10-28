@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:ci": "jest --ci --reporters=default --reporters=jest-junit"
   },
   "devDependencies": {
     "typescript": "^5.7.2",
