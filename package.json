@@ -16,5 +16,9 @@
     "ts-jest": "^29.4.15",
     "typescript": "^5.7.2",
     "vite": "^6.0.5"
-  }
+  },
+  "jest-junit": {
+    "outputDirectory": "./test-results",
+    "outputName": "junit.xml"
+}
 }
