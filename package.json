@@ -10,6 +10,10 @@
     "test:ci": "jest --ci --reporters=default --reporters=jest-junit"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.2",
+    "jest-junit": "^17.0.0",
+    "ts-jest": "^29.4.15",
     "typescript": "^5.7.2",
     "vite": "^6.0.5"
   }
